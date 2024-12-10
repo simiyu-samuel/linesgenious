@@ -1,0 +1,21 @@
+body {
+  font-family: "Arial", sans-serif;
+}
+
+.hero-section {
+  background: linear-gradient(to bottom right, #6a11cb, #2575fc);
+  padding: 100px 0;
+}
+
+.features i {
+  color: #2575fc;
+}
+
+.features h3 {
+  color: #333;
+}
+
+footer {
+  background: #111;
+  color: #ddd;
+}
