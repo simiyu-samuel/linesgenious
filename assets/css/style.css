@@ -1,0 +1,119 @@
+body {
+  font-family: "Arial", sans-serif;
+}
+
+.hero-section {
+  background: linear-gradient(to bottom right, #6a11cb, #2575fc);
+  padding: 100px 0;
+}
+
+.features i {
+  color: #2575fc;
+}
+
+.features h3 {
+  color: #333;
+}
+
+footer {
+  background: #111;
+  color: #ddd;
+}
+.card {
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  font-weight: bold;
+  color: #2575fc;
+}
+
+.card-text {
+  color: #555;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+}
+.pagination .page-item.active .page-link {
+  background-color: #2575fc;
+  border-color: #2575fc;
+  color: white;
+}
+
+.pagination .page-link {
+  color: #2575fc;
+}
+
+.pagination .page-link:hover {
+  background-color: #2575fc;
+  color: white;
+}
+/* Card hover animation */
+.project-card .card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card .card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Fade-in animation for projects */
+.project-animation {
+  opacity: 0;
+  transform: scale(0.9);
+  animation: fadeIn 0.8s forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Filter button active state */
+.filter-btn {
+  margin: 0 5px;
+}
+
+.filter-btn.active {
+  background-color: #2575fc;
+  color: white;
+  border: 1px solid #2575fc;
+}
+/* Blog card hover effect */
+.blog-animation {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 0.6s forwards;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+/* Contact form styles */
+form.shadow-lg {
+  animation: fadeIn 0.8s ease-in-out;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Smooth fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
